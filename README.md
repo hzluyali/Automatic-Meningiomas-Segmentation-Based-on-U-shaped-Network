@@ -30,5 +30,5 @@ Step 3: 运行train.py训练模型
 
 Step 4: 运行test.py评估模型在测试集上的泛化能力，并通过predict.py进行在线测试，实验结果如下所示：
 
-
+https://github.com/hzluyali/Automatic-Meningiomas-Segmentation-Based-on-U-shaped-Network/blob/main/1629115201(1).jpg
 
