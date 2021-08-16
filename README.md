@@ -20,5 +20,15 @@ test.py #生成测试集的预测结果，并且输出Dice，敏感度和IOU这�
 
 predict.py #在线预测
 
+## 02 运行过程
+
+Step 1: 运行python generate_database.py将nii文件转化为TCGA-LGG公开数据集格式
+
+Step 2: 运行python br.py进行颅骨去除从而提高肿瘤区域的比例
+
+Step 3: 运行train.py训练模型
+
+Step 4: 运行test.py评估模型在测试集上的泛化能力，并通过predict.py进行在线测试，实验结果如下所示：
+
 
 
